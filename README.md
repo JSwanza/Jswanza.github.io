@@ -4,7 +4,7 @@
 Southern New Hampshire University
 
 - [Self-Assessment](#) (coming)
-- [Code Review](#) (coming)
+- [Code Review](https://youtu.be/F6IIgDRQelY) - — informal review of the original artifacts and planned enhancements
 - [Software Design and Engineering](#)
 - [Algorithms and Data Structures](#)
 - [Databases](#)
