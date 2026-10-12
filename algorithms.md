@@ -28,7 +28,7 @@ What it did not do well:
 - The history list is unbounded (memory grows with episode count)
 - No explicit complexity or capacity bound
 
-**Original source:** [cartpole_tabular.py](cartpole_tabular.py)
+**Original source:** [cartpole_tabular.py](q_learning_cartpole.py)
 
 ---
 
@@ -42,7 +42,7 @@ The enhancement keeps the same simplified physics so the comparison is fair, the
 
 Additional changes: minibatches, decaying epsilon, and inline complexity notes.
 
-**Enhanced source:** [cartpole_enhanced.py](cartpole_enhanced.py)
+**Enhanced source:** [cartpole_enhanced.py](dqn_cartpole.py)
 
 ### Complexity comparison
 
@@ -53,7 +53,7 @@ Additional changes: minibatches, decaying epsilon, and inline complexity notes.
 | Tabular Q dict         | O(1) avg   | O(1) avg        | Grows with visited bins   |
 | TinyQNet               | —          | O(1) forward    | Fixed weights             |
 
-Both scripts are stock Python 3 (no third-party packages). Run them with `python cartpole_tabular.py` and `python cartpole_enhanced.py`.
+Both scripts are stock Python 3 (no third-party packages). Run them with `python q_learning_cartpole.py` and `python dqn_cartpole.py`.
 
 ---
 
